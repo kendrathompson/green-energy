@@ -1,0 +1,160 @@
+/*light yellow: #FEEC8A
+darker yellow: F9C125;
+green: #4DB846
+light blue: #8AD2FA*/
+
+/*MOBILE VIEW*/
+body {
+	background-color: #8AD2FA;
+	font-size: 0.75rem;
+	line-height: 1.4;
+	font-family: 'Josefin Sans', 'Arial', sans-serif;
+}
+
+.wrapper {
+	padding: 2rem;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+	margin: 0;
+	font-family: 'Josefin Slab', 'Arial', sans-serif;
+}
+
+.navbar {
+	background-color: #FEEC8A;
+	list-style: none;
+	padding: 2rem 0;
+
+}
+
+ul {
+	font-size: 1rem;
+	list-style-type: none;
+  	display: flex;
+  	flex-direction: column;
+	justify-content: space-around;
+	padding: 1rem 0;
+	margin: 0 auto;
+  	width: 100%;
+}
+
+.nav-link {
+	font-size: 0.9rem;
+	text-decoration: none;
+	color: black;
+	margin: 0 auto;
+	padding: 1rem 3rem;
+}
+
+.nav-link:hover {
+	color: white;
+	background-color: #F9C125;
+}
+
+.active {
+	background-color: #F9C125;
+}
+
+.masthead {
+	background-image: url(../images/masthead.jpg);
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 20rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	clear: both;
+}
+
+button img {
+	width: 80px;
+}
+
+#active {
+	background-color: #4DB846;
+	color: white;
+}
+
+button {
+	background-color: white;
+	color: black;
+	font-size: 0.4rem;
+	width: 30%;
+	margin: 0 1.31%;
+}
+
+button:hover {
+	color: #F9C125;
+}
+
+
+article img {
+	width: 100%;
+	height: auto;
+}
+
+article h2 {
+	font-size: 1.5rem;
+	font-family: 'Josefin Slab', 'Arial', sans-serif;
+}
+
+footer {
+	background-color: #8AD2FA;
+}
+
+footer i {
+	color: #4DB846;
+	font-size: 3rem;
+}
+
+footer i:hover {
+	color: #FEEC8A;
+}
+
+.footer ul {
+	flex-direction: row;
+	font-size: 1.5rem;
+}
+
+
+
+
+/*DESKTOP*/
+@media only screen and (min-width: 35rem) {
+
+	h1 {
+		font-size: 3rem;
+	}
+
+	h3 {
+		font-size: 1.3rem;
+	}
+
+	.nav-link {
+	font-size: 1.2rem;
+	}
+
+	.wrapper {
+		max-width: 60rem;
+		margin: 0 auto;
+		font-size: 1rem;
+		line-height: 1.6;
+	}
+
+	article img {
+		width: 25%;
+		height: auto;
+		float: left;
+	}
+
+	ul {
+		flex-direction: row;
+		font-size: 1.5rem;
+	}
+
+	footer {
+		clear: both;
+	}
+
